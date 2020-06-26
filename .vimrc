@@ -72,7 +72,7 @@ nmap <Space><Space> :nohlsearch<CR><Esc>
 " overwrite file and stay
 nmap WW :w<CR><Esc>
 
-set noautoindent
+" set noautoindent
 set wildmenu
 
 colorscheme pablo
@@ -80,3 +80,4 @@ colorscheme pablo
 if !has('gui_running')
 	  set t_Co=256
 endif
+
